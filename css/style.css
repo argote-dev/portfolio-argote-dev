@@ -8,7 +8,8 @@
   --bg-hover: #2C2C2C;
   --text-color-dark-light: #8a8a8a;
   --text-color-dark: #373737;
-  --bg-separator: #313131;
+  --bg-separator: #141414;
+  --bg-btn-dark: #000000;
 }
 
 * {
@@ -305,6 +306,25 @@ footer>p>span {
   width: 30px;
   height: 5px;
   background-color: var(--bg-separator);
+}
+
+/* btn */
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--bg-btn-dark);
+  margin-top: 20px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.btn:hover {
+  color: var(--bg-btn-dark);
+  background-color: var(--text-color);
+}
+
+.btn-cv {
+  font-size: .8em;
 }
 
 /* Large, medium */

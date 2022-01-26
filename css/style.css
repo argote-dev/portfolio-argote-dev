@@ -12,6 +12,22 @@
   --bg-btn-dark: #000000;
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-dark: #ffffff;
+    --text-color: #000000;
+    --bg-dark-light: #ececec;
+    --text-color-hover: #000000;
+    --text-color-h2: #000000;
+    --bg-placeholder: #000000;
+    --bg-hover: #d8d8d8;
+    --text-color-dark-light: #242424;
+    --text-color-dark: #2c2c2c;
+    --bg-separator: #e0e0e0;
+    --bg-btn-dark: #dddddd;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0%;
@@ -165,7 +181,7 @@ h2 {
 
 .project-link:hover {
   color: var(--text-color);
-  background-color: #363636;
+  background-color: var(--bg-hover);
 }
 
 .list-projects {

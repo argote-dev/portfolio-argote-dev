@@ -26,6 +26,11 @@
     --bg-separator: #e0e0e0;
     --bg-btn-dark: #dddddd;
   }
+
+  #logo-web {
+    content: url('../img/logo_da_sin_black.png');
+  }
+
 }
 
 * {
